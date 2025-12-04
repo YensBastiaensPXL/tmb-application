@@ -33,7 +33,7 @@ export default function CompassButton({
                     }}
                 >
                     <Image
-                        source={require('@/assets/images/compass.jpg')}
+                        source={require('../../../assets/images/compass.jpg')}
                         style={{width: 28, height: 28}}
                     />
                 </Animated.View>

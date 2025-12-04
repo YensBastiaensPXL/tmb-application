@@ -153,9 +153,9 @@ export default function Map() {
             >
                 <Images
                     images={{
-                        store: require("@/assets/images/store.png"),
-                        refuge: require("@/assets/images/refuge.png"),
-                        wildcamp: require("@/assets/images/tent.png"),
+                        store: require("../../../assets/images/store.png"),
+                        refuge: require("../../../assets/images/refuge.png"),
+                        wildcamp: require("../../../assets/images/tent.png"),
                     }}
                 />
                 {mapLoaded && (
